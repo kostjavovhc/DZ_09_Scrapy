@@ -25,9 +25,6 @@ class DataPipline:
 
 
 
-urls = ["https://quotes.toscrape.com/"]
-
-
 class QuotesSpider(scrapy.Spider):
     name = "get_quotes"
     allowed_domains = ["quotes.toscrape.com"]
